@@ -16,8 +16,8 @@ text-align : center;
     height: 200px;
     object-fit: cover;
     margin: 0 0 0 0;
-  animation: spin linear infinite steps(60);
-
+  animation: spin linear infinite;
+ animation-timing-function: steps(60);
  }
 
 @keyframes spin { 100% { transform:rotate(360deg); } }
